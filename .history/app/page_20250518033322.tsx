@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, CSSProperties } from 'react';
 import { RefreshCw, } from "lucide-react";
 // import PieChartComponent from './piechart';
 // import BarChartComponent from './barchart';
@@ -177,6 +177,11 @@ export default function StockDashboard() {
     return () => clearInterval(interval);
   }, []);
 
+  const override: CSSProperties = {
+    display: "block",
+    margin: "0 auto",
+    borderColor: "#6D0DCC",
+  };
 
   return (
 

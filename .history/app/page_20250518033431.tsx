@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, CSSProperties } from 'react';
 import { RefreshCw, } from "lucide-react";
 // import PieChartComponent from './piechart';
 // import BarChartComponent from './barchart';
