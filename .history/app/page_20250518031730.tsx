@@ -143,7 +143,7 @@ export default function StockDashboard() {
   const fetchData = async (fromButton = false) => {
     setLoading(true); // optional: show loader on manual refresh
     try {
-      const res = await fetch('/api/stockCall');
+      const res = await fetch('app/api/route');
       const json = await res.json();
       if (json.success) {
         const dataWithUserFields = STOCKS_LIST.map((symbol) => {
