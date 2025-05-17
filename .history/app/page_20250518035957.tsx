@@ -268,7 +268,7 @@ export default function StockDashboard() {
             </span>
           </button>
         </div>
-        <PieChartComponent />
+        {/* <PieChartComponent /> */}
         <div className="p-4 sm:p-6">
           {loading ? (
             <div
@@ -341,7 +341,7 @@ export default function StockDashboard() {
             </div>
           )}
         </div>
-        <BarChartComponent />
+        {/* <BarChartComponent /> */}
       </div>
       <ToastContainer />
       <PersonalInfo isModalOpen={modalOpen} onClose={() => setModalOpen(false)} />
