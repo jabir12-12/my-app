@@ -185,7 +185,7 @@ export default function StockDashboard() {
       {/* Header */}
       <header className="sticky top-0 z-10 flex justify-between px-4 md:px-6 py-3 md:py-4 bg-white border-b border-gray-200 shadow-sm items-center">
         <div className="flex items-center">
-          <h1 className="text-gray-900 font-semibold text-xl md:text-2xl">Stock Dashboard</h1>
+          <h1 className="text-gray-900 font-semibold text-xl md:text-2xl">Stock Portfolio Dashboard</h1>
         </div>
         <div className="flex items-center gap-2 md:gap-4">
           <button
