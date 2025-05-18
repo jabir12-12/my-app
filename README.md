@@ -19,9 +19,7 @@ START
 ## Implementation
 Framework: Next.js
 Styling: Tailwind CSS
-
-## Libraries Used
-
+Libraries Used:-
 - **Recharts** – For data visualization and charts  
 - **Material UI** – For dialogs and UI components  
 - **React Spinners** – For loading animations  
