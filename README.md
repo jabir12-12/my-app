@@ -1,19 +1,19 @@
-## Use Case Diagram 
-START
-  │
-  ▼
-  ├──> View Portfolio
-  │     └── Portfolio Page
-  │           ├── View KPIs for overall stock performance
-  │           ├── View User's Invested Stocks
-  │           └── View Stocks by Category
-  │                └── View stock table for detailed information on each stock
-  │
-  ├──> Click on User Profile
-  │     └── View User Details Page
-  │
-  └──> Click the Refresh Button
-        └── Fetch the latest stock updates
+## Use Case Flow
+
+- **Start**
+  - ➤ **View Portfolio**
+    - Navigate to the **Portfolio Page**
+      - View KPIs for overall stock performance  
+      - View user's invested stocks  
+      - View stocks by category  
+        - View stock table for detailed information on each stock  
+
+  - ➤ **Click on User Profile**
+    - Navigate to the **User Details Page**  
+
+  - ➤ **Click the Refresh Button**
+    - Fetch the latest stock updates from Yahoo Finance  
+
 
  
 ## Implementation
@@ -25,7 +25,7 @@ Styling: Tailwind CSS
 - **React Spinners** – For loading animations  
 - **Yahoo Finance API** – For real-time stock data  
 - **Deployment** –  Vercel
-- - **Development Methodology** – DevOps practices
+- **Development Methodology** – DevOps practices
 
 
 ## Real-Time Data Flow from Yahoo Finance
