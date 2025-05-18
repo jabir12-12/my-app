@@ -24,10 +24,9 @@ Styling: Tailwind CSS
 - **Material UI** – For dialogs and UI components  
 - **React Spinners** – For loading animations  
 - **Yahoo Finance API** – For real-time stock data  
+- **Deployment** –  Vercel
+- - **Development Methodology** – DevOps practices
 
-
-Deployment: Vercel
-Development Methodology: DevOps practices
 
 ## Real-Time Data Flow from Yahoo Finance
 The diagram below illustrates how real-time stock data is retrieved from the Yahoo Finance API:
