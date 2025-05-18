@@ -52,7 +52,7 @@ export default function PieChartComponent() {
         const fetchStockData = async () => {
             try {
                 setLoading(true);
-                const response = await fetch('/api/stockCall');
+                const response = await fetch('/api/stockall');
                 const result = await response.json();
 
                 if (result.success) {
@@ -134,7 +134,7 @@ export default function PieChartComponent() {
     const CustomPieTooltip: React.FC<TooltipProps<number, string>> = ({ active, payload }) => {
         if (active && payload && payload.length) {
             const data = payload[0];
-            const name = data.name?.replace('.NS', '') ?? 'N/A';
+            const name = data.name;
             const value = data.value;
             const fill = data.payload?.fill;
             const percentage = data.payload?.percentage;
@@ -209,7 +209,7 @@ export default function PieChartComponent() {
     if (error) {
         return (
             <div className="flex justify-center items-center h-64">
-                <p className="text-red-500">Oops, sorry! We couldn&apos;t fetch the data.</p>
+                <p className="text-red-500">Oops, sorry! We couldn't fetch the data.</p>
             </div>
 
         );
@@ -227,7 +227,7 @@ export default function PieChartComponent() {
                         Total Invested: ₹{chartData.totalInvested.toLocaleString("en-IN")}
                     </span>
                     <span className="text-gray-500 text-sm">
-                        Each slice represents an individual stock&apos;s portion of your total investment.
+                        Each slice represents an individual stock's portion of your total investment.
                     </span>
                 </div>
                 <ResponsiveContainer width="100%" height={300} className="flex">
@@ -259,7 +259,7 @@ export default function PieChartComponent() {
                         Total Current Value: ₹{chartData.totalCurrent.toLocaleString("en-IN")}
                     </span>
                     <span className="text-gray-500 text-sm">
-                        Each slice represents an individual stock&apos;s current value as a portion of your total portfolio.
+                        Each slice represents an individual stock's current value as a portion of your total portfolio.
                     </span>
                 </div>
                 <ResponsiveContainer width="100%" height={300} className="flex">
