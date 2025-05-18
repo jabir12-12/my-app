@@ -18,13 +18,15 @@ START
  
 ## Implementation
 Framework: Next.js
-
 Styling: Tailwind CSS
-###### Libraries Used:
-1.Recharts – for data visualization and charts
-2.Material UI – for dialogs and UI components
-3.React Spinners – for loading animations
-4.Yahoo Finance API – for real-time stock data
+
+## Libraries Used
+
+- **Recharts** – For data visualization and charts  
+- **Material UI** – For dialogs and UI components  
+- **React Spinners** – For loading animations  
+- **Yahoo Finance API** – For real-time stock data  
+
 
 Deployment: Vercel
 Development Methodology: DevOps practices
