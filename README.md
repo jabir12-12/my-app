@@ -30,8 +30,8 @@ Styling: Tailwind CSS
 
 ## Real-Time Data Flow from Yahoo Finance
 The diagram below illustrates how real-time stock data is retrieved from the Yahoo Finance API:
-
-![ChatGPT Image May 18, 2025, 02_52_12 PM](https://github.com/user-attachments/assets/5c45f7c6-2bba-4475-b54f-f11bbf4c7110)
+[
+![ChatGPT Image May 18, 2025, 02_52_12 PM](https://github.com/user-attachments/assets/5c45f7c6-2bba-4475-b54f-f11bbf4c7110)](https://github.com/jabir12-12/my-app/blob/master/dfd-for-stock.png)
 
 
 
